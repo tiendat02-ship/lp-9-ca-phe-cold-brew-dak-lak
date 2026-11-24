@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Cà Phê Cold Brew Đắk Lắk</title>
+<meta name="description" content="Thiết kế landing page ra mắt sản phẩm Cà Phê Cold Brew Đóng Chai ủ lạnh 24 giờ của thương hiệu Đắk Lắk Farm. Khách hàng mục tiêu là dân văn phòng và người..."/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Cà Phê Cold Brew Đắk Lắk"/>
+<meta property="og:description" content="Thiết kế landing page ra mắt sản phẩm Cà Phê Cold Brew Đóng Chai ủ lạnh 24 giờ của thương hiệu Đắk Lắk Farm. Khách hàng mục tiêu là dân văn phòng và người..."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+          colors: {
+            brand: '#4F46E5',
+            brandDark: '#332E95',
+            brandSoft: '#EAE9FC'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .hero-gradient { background: radial-gradient(circle at 20% 20%, #EAE9FC 0%, #ffffff 55%); }
+    .text-balance { text-wrap: balance; }
+  </style>
+</head>
+<body class="font-sans bg-white text-slate-800 antialiased">
+
+  <!-- 1. Thanh điều hướng -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+      <a href="#" class="flex items-center gap-2.5 min-w-0">
+        <span class="w-9 h-9 rounded-xl bg-brand text-white flex items-center justify-center font-extrabold shadow-lg shadow-brand/25 shrink-0">
+          C
+        </span>
+        <span class="font-extrabold text-slate-900 truncate">Cà Phê Cold Brew Đắk Lắk</span>
+      </a>
+      <div class="flex items-center gap-3">
+        <a href="#features" class="hidden sm:inline text-sm font-semibold text-slate-600 hover:text-brand transition">Tính năng</a>
+        <a href="#lien-he" class="hidden sm:inline text-sm font-semibold text-slate-600 hover:text-brand transition">Liên hệ</a>
+        <a href="#dat-hang" class="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-xl bg-brand hover:bg-brandDark text-white text-sm font-bold shadow-lg shadow-brand/25 transition">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="hidden xs:inline">Đặt giao hỏa tốc 2 giờ</span>
+          <span class="xs:hidden">Mua</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. Hero -->
+  <section class="hero-gradient border-b border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-14 sm:py-20 grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+      <div class="space-y-6">
+        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brandSoft text-brandDark text-xs font-bold border border-brand/20">
+          <i class="fa-solid fa-bolt text-brand"></i>
+          Chiến dịch Cà Phê Cold Brew Đắk Lắk
+        </span>
+        <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight text-balance">
+          Tỉnh táo suốt cả ngày với Cà Phê Cold Brew Đắk Lắk ủ lạnh 24 giờ
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl">
+          100% hạt Robusta và Arabica tuyển chọn, công nghệ ủ lạnh giữ trọn vị chocolate tự nhiên, không đau dạ dày, không say cồn cào.
+        </p>
+        <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+          <span class="text-sm font-semibold text-slate-500">Giá niêm yết</span>
+          <span class="text-3xl sm:text-4xl font-extrabold text-brand">Liên hệ</span>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3 pt-1">
+          <a href="#dat-hang" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-brand hover:bg-brandDark text-white font-bold shadow-xl shadow-brand/25 hover:scale-[1.02] active:scale-[0.98] transition">
+            <span>Đặt giao hỏa tốc 2 giờ</span>
+            <i class="fa-solid fa-arrow-right text-sm"></i>
+          </a>
+          <a href="#features" class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-slate-700 font-bold border border-slate-200 transition">
+            <i class="fa-solid fa-circle-play text-brand"></i>
+            <span>Tìm hiểu thêm</span>
+          </a>
+        </div>
+        <div class="grid grid-cols-3 gap-3 pt-4 border-t border-slate-200/70 max-w-xl text-xs sm:text-sm text-slate-600 font-medium">
+          <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brand"></i><span>Chính hãng 100%</span></div>
+          <div class="flex items-center gap-2"><i class="fa-solid fa-truck-fast text-brand"></i><span>Giao nhanh 2h</span></div>
+          <div class="flex items-center gap-2"><i class="fa-solid fa-rotate-left text-brand"></i><span>Đổi trả 30 ngày</span></div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="absolute -inset-3 bg-brand/10 rounded-3xl blur-2xl"></div>
+        <div class="relative bg-white rounded-3xl border border-slate-200 shadow-2xl overflow-hidden">
+          <div class="w-full aspect-square bg-gradient-to-br from-brandSoft to-white flex flex-col items-center justify-center gap-4">
+            <span class="w-24 h-24 rounded-3xl bg-brand text-white text-4xl font-extrabold flex items-center justify-center shadow-2xl shadow-brand/30">
+              C
+            </span>
+            <span class="text-sm font-semibold text-slate-500">Cà Phê Cold Brew Đắk Lắk</span>
+          </div>
+          <div class="p-4 flex items-center justify-between gap-3 border-t border-slate-100">
+            <div class="flex items-center gap-3 min-w-0">
+              <span class="w-10 h-10 rounded-xl bg-brandSoft text-brand flex items-center justify-center shrink-0"><i class="fa-solid fa-award"></i></span>
+              <div class="min-w-0">
+                <p class="text-sm font-bold text-slate-800 truncate">Cà Phê Cold Brew Đắk Lắk</p>
+                <p class="text-xs text-slate-500">Được tin chọn bởi 1.200+ khách hàng</p>
+              </div>
+            </div>
+            <span class="text-amber-500 text-sm whitespace-nowrap"><i class="fa-solid fa-star"></i> 4.9/5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Tính năng nổi bật -->
+  <section id="features" class="py-16 sm:py-20 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="max-w-2xl mx-auto text-center space-y-3 mb-10">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand">Điểm khác biệt</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900">Vì sao nên chọn chúng tôi?</h2>
+        <p class="text-slate-600 leading-relaxed">Những giá trị khác biệt chỉ có tại sản phẩm lần này.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+        <article class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition">
+          <span class="w-11 h-11 rounded-xl bg-brandSoft text-brand flex items-center justify-center text-lg mb-4">
+            <i class="fa-solid fa-award"></i>
+          </span>
+          <h3 class="text-sm font-bold text-slate-900 mb-1.5">100% hạt cà phê Robusta và Arabica chọn lọc thủ công</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">Thông tin chi tiết sẽ được cập nhật sớm.</p>
+        </article>
+        <article class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition">
+          <span class="w-11 h-11 rounded-xl bg-brandSoft text-brand flex items-center justify-center text-lg mb-4">
+            <i class="fa-solid fa-truck-fast"></i>
+          </span>
+          <h3 class="text-sm font-bold text-slate-900 mb-1.5">Công nghệ ủ lạnh 24 giờ kết hợp Nitrogen giữ trọn tầng hương tự nhiên</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">Thông tin chi tiết sẽ được cập nhật sớm.</p>
+        </article>
+        <article class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition">
+          <span class="w-11 h-11 rounded-xl bg-brandSoft text-brand flex items-center justify-center text-lg mb-4">
+            <i class="fa-solid fa-shield-halved"></i>
+          </span>
+          <h3 class="text-sm font-bold text-slate-900 mb-1.5">Không chất bảo quản, 0 calo khi thưởng thức vị mộc</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">Thông tin chi tiết sẽ được cập nhật sớm.</p>
+        </article>
+        <article class="bg-white rounded-2xl border border-slate-200 p-5 sm:p-6 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition">
+          <span class="w-11 h-11 rounded-xl bg-brandSoft text-brand flex items-center justify-center text-lg mb-4">
+            <i class="fa-solid fa-headset"></i>
+          </span>
+          <h3 class="text-sm font-bold text-slate-900 mb-1.5">Êm dịu cho dạ dày, không lo say hay cồn cào tim đập nhanh</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">Thông tin chi tiết sẽ được cập nhật sớm.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Giới thiệu & cam kết -->
+  <section class="py-16 sm:py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-10 items-center">
+      <div class="space-y-5">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand">Về sản phẩm</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900">
+          Cà Phê Cold Brew Đắk Lắk - lựa chọn đáng tin cậy
+        </h2>
+        <p class="text-slate-600 leading-relaxed whitespace-pre-line">Thiết kế landing page ra mắt sản phẩm Cà Phê Cold Brew Đóng Chai ủ lạnh 24 giờ của thương hiệu Đắk Lắk Farm. Khách hàng mục tiêu là dân văn phòng và người trẻ cần năng lượng tỉnh táo cả ngày mà không bị say cồn cào hay đau dạ dày. Điểm nổi bật: 100% Robusta &amp; Arabica chọn lọc tay, công nghệ ủ lạnh Nitrogen giữ trọn tầng hương chocolate tự nhiên, không chất bảo quản, 0 calo nếu dùng mộc. Bao gồm các khối: Banner Hero bắt mắt, 4 đặc tính vượt trội, 3 combo dùng thử khuyến mãi mua 3 tặng 1, feedback từ 500 khách hàng và form đặt giao hỏa tốc 2 giờ.</p>
+        <ul class="space-y-3 text-sm text-slate-700">
+          <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-brand mt-0.5"></i><span>Thông tin sản phẩm minh bạch, đúng như mô tả.</span></li>
+          <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-brand mt-0.5"></i><span>Đội ngũ tư vấn hỗ trợ trước và sau khi mua hàng.</span></li>
+          <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check text-brand mt-0.5"></i><span>Cam kết bảo mật thông tin khách hàng tuyệt đối.</span></li>
+        </ul>
+      </div>
+      <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between gap-3 pb-4 border-b border-slate-200">
+          <span class="text-sm font-semibold text-slate-600">Giá bán</span>
+          <span class="text-2xl font-extrabold text-brand">Liên hệ</span>
+        </div>
+        <div class="flex items-center justify-between gap-3 text-sm text-slate-600">
+          <span>Phí vận chuyển</span>
+          <span class="font-semibold text-emerald-600">Miễn phí toàn quốc</span>
+        </div>
+        <div class="flex items-center justify-between gap-3 text-sm text-slate-600">
+          <span>Bảo hành</span>
+          <span class="font-semibold text-slate-800">12 tháng chính hãng</span>
+        </div>
+        <a id="dat-hang" href="#lien-he" class="mt-2 inline-flex w-full items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-brand hover:bg-brandDark text-white font-bold shadow-lg shadow-brand/25 transition">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span>Đặt giao hỏa tốc 2 giờ - Liên hệ</span>
+        </a>
+        <p class="text-xs text-slate-500 text-center">Nhân viên sẽ liên hệ xác nhận đơn hàng trong vòng 10 phút.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 6. Footer -->
+
+
+
+
+  <footer class="bg-slate-900 text-slate-300">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <div>
+        <p class="font-bold text-white">Cà Phê Cold Brew Đắk Lắk</p>
+        <p class="text-xs text-slate-400 mt-1">© 2026 Cà Phê Cold Brew Đắk Lắk. Bảo lưu mọi quyền.</p>
+      </div>
+      <div class="flex items-center gap-3">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
